@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/c1.css')}}">
+</head>
+<body>
+        <h1>
+            <center>
+                This is html page rendered by render_template Function
+            </center>
+        </h1>
+        <h2>
+            <center>
+                Name :- {{name}} <br>
+                Age  :- {{age}} 
+            </center>
+        </h2>
+    <center><h1><a href="{{url_for('sfiles')}}">click here to go to static files</a></h1></center>
+        
+</body>
+</html>
